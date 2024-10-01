@@ -35,6 +35,7 @@
             label2 = new Label();
             groupBox1 = new GroupBox();
             checkBox1 = new CheckBox();
+            comboBox1 = new ComboBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -86,6 +87,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(button1);
@@ -108,6 +110,14 @@
             checkBox1.TabIndex = 5;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(478, 270);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(182, 33);
+            comboBox1.TabIndex = 6;
             // 
             // Listita
             // 
@@ -132,5 +142,6 @@
         private Label label2;
         private GroupBox groupBox1;
         private CheckBox checkBox1;
+        private ComboBox comboBox1;
     }
 }
