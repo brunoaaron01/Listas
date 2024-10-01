@@ -34,6 +34,7 @@
             label1 = new Label();
             label2 = new Label();
             groupBox1 = new GroupBox();
+            checkBox1 = new CheckBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -85,6 +86,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(checkBox1);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(label2);
@@ -96,6 +98,16 @@
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             groupBox1.Text = "Ejercicio9";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(612, 205);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(121, 29);
+            checkBox1.TabIndex = 5;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // Listita
             // 
@@ -119,5 +131,6 @@
         private Label label1;
         private Label label2;
         private GroupBox groupBox1;
+        private CheckBox checkBox1;
     }
 }
